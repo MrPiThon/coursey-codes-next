@@ -23,6 +23,12 @@ export const projects = [
         url: 'https://mrpithon.wordpress.com',
         image: '/PyColonies.png',
     },
+    {
+        title: 'RCBS',
+        description: 'An RC car enthusiasts next favorite game.',
+        url: '',
+        image: '/RCBS.png'
+    }
 ];
 
 export default projects;

@@ -5,7 +5,11 @@ const ProjectCard = ({ title, description, url, image }) => {
             <div className="p-4">
                 <h3 className="text-xl text-custom-primary font-bold">{title}</h3>
                 <p className="text-sm text-custom-secondary mt-2">{description}</p>
-                <a href={url} className="text-custom-accent mt-4 block hover:underline">View Project</a>
+                {url ? (
+                    <a href={url} className="text-custom-accent mt-4 block hover:underline">View Project</a>
+                ) : (
+                    <span className="text-custom-accent mt-4 block">Coming Soon</span>
+                )}
             </div>
         </div>
     );
