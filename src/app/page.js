@@ -1,4 +1,4 @@
-import { projects } from '@/lib/projects';
+import { projects } from '@/lib/Projects';
 import About from '@/components/About';
 import Contact from '@/components/Contact';
 import ProjectCard from '@/components/ProjectCard';
