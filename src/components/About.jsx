@@ -1,83 +1,45 @@
+import {Fragment} from "react";
+
 const About = () => {
     return (
-        <section
-            data-aos="fade-up"
-            className="min-h-screen flex flex-col justify-center items-center text-center px-6"
-        >
-            <h2 className="text-3xl text-custom-accent font-bold mb-10">About Me</h2>
-            <div className="flex flex-col lg:flex-row justify-center items-start gap-12 w-full max-w-6xl text-left">
-                <div className="flex-1 space-y-4">
-                    <h3 className="text-2xl font-semibold text-custom-accent mb-2 border-b border-custom-secondary pb-2">Past</h3>
-                    <ul className="space-y-3">
-                        <li className="flex items-start gap-2">
-                            <span className="text-custom-secondary mt-1">•</span>
-                            <span className="text-custom-accent">Discovered coding in freshman year of high school</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                            <span className="text-custom-secondary mt-1">•</span>
-                            <span className="text-custom-accent">Built games in Python using VSCode</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                            <span className="text-custom-secondary mt-1">•</span>
-                            <span className="text-custom-accent">Self-taught: Python, C#, Java, C++</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                            <span className="text-custom-secondary mt-1">•</span>
-                            <span className="text-custom-accent">Served in the Marines before diving into dev full-time</span>
-                        </li>
-                    </ul>
-                </div>
+        <div className={"my-24 text-center text-2xl text-lime-300 min-h-screen w-screen"}>
+            <div className='min-h-screen w-screen bg-[url("/about-me-cover.svg")] bg-no-repeat bg-contain bg-center flex items-center justify-center text-lime-300 px-4'>
+                <div className="flex flex-row gap-6 w-full max-w-[1400px]">
+                    <div className="flex-1 backdrop-blur-sm p-6 rounded-xl shadow-lg text-lime-200 text-base md:text-lg leading-relaxed
+                    hover:shadow-[0_0_30px_#7f5af0] transition duration-300 ease-in-out">
+                        <h3 className="text-secondary font-bold text-xl mb-2">My Past</h3>
+                        <p>
+                            I grew up in California, where I developed a passion for programming in High School.
+                            My first language was Python, but I quickly transitioned to Java and C#. <br/>
+                            After high school, I spent 3 years in the U.S. Marine Corps, where I learned many things -
+                            but the important being discipline, teamwork and leadership. All things that I apply to my
+                            work today.
+                        </p>
+                    </div>
 
-                <div className="hidden lg:block w-px bg-custom-secondary h-auto" />
+                    <div className="flex-1 backdrop-blur-sm p-6 rounded-xl shadow-lg text-lime-200 text-base md:text-lg leading-relaxed
+                    hover:shadow-[0_0_30px_#7f5af0] transition duration-300 ease-in-out">
+                        <h3 className="text-secondary font-bold text-xl mb-2">My Present</h3>
+                        <p>
+                            I am currently pursuing an Applied Bachelor's degree in Software Development at
+                            California Institute of Applied Technology. <br/>
+                            I spend most of my time working on personal projects, such as Zombie Siege - or this website,
+                            using them as ways of learning new things and improving my skills.
+                        </p>
+                    </div>
 
-                <div className="flex-1 space-y-4">
-                    <h3 className="text-2xl font-semibold text-custom-accent mb-2 border-b border-custom-secondary pb-2">Present</h3>
-                    <ul className="space-y-3">
-                        <li className="flex items-start gap-2">
-                            <span className="text-custom-secondary mt-1">•</span>
-                            <span className="text-custom-accent">Studying Software Dev at CIAT</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                            <span className="text-custom-secondary mt-1">•</span>
-                            <span className="text-custom-accent">Strongest in Java, JetBrains tools</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                            <span className="text-custom-secondary mt-1">•</span>
-                            <span className="text-custom-accent">Projects: Zombie Siege, RCBS, and this site</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                            <span className="text-custom-secondary mt-1">•</span>
-                            <span className="text-custom-accent">Focus on fun + challenge in dev</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <div className="hidden lg:block w-px bg-custom-secondary h-auto" />
-
-                <div className="flex-1 space-y-4">
-                    <h3 className="text-2xl font-semibold text-custom-accent mb-2 border-b border-custom-secondary pb-2">Future</h3>
-                    <ul className="space-y-3">
-                        <li className="flex items-start gap-2">
-                            <span className="text-custom-secondary mt-1">•</span>
-                            <span className="text-custom-accent">Dream: work full-time on RCBS or Zombie Siege</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                            <span className="text-custom-secondary mt-1">•</span>
-                            <span className="text-custom-accent">Enjoys game dev most, but web is growing on me</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                            <span className="text-custom-secondary mt-1">•</span>
-                            <span className="text-custom-accent">Wants to create meaningful escapism for others</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                            <span className="text-custom-secondary mt-1">•</span>
-                            <span className="text-custom-accent">Hopes to release and scale RCBS soon</span>
-                        </li>
-                    </ul>
+                    <div className="flex-1 backdrop-blur-sm p-6 rounded-xl shadow-lg text-lime-200 text-base md:text-lg leading-relaxed
+                    hover:shadow-[0_0_30px_#7f5af0] transition duration-300 ease-in-out">
+                        <h3 className="text-secondary font-bold text-xl mb-2">My Future</h3>
+                        <p>
+                            I am looking forward to graduating in 2027, and starting a career in Software Development. <br/>
+                            Ideally, I can make my living working on a personal project, or customer projects. <br/>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </section>
-    );
-};
+        </div>
+    )
+}
 
 export default About;

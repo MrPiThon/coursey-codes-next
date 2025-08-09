@@ -1,17 +1,26 @@
 const Contact = () => {
     return (
-        <section
-            data-aos="fade-up"
-            className="py-12 text-center">
-            <h2 className="text-3xl text-custom-accent font-bold mb-6">Contact Me</h2>
-            <div className="flex justify-center space-x-6">
-                <a href="https://discord.gg/5Py2AYHXCc"><img src="/discord.png" alt="Discord" className="w-8 h-8 transition-transform hover:scale-110 hover:animate-pulse" /></a>
-                <a href="https://github.com/MrPiThon"><img src="/github.png" alt="GitHub" className="w-8 h-8 transition-transform hover:scale-110 hover:animate-pulse" /></a>
-                <a href="https://www.linkedin.com/in/alex-coursey-80388b298/"><img src="/linkedin.png" alt="LinkedIn" className="w-8 h-8 transition-transform hover:scale-110 hover:animate-pulse" /></a>
-                <a href="mailto:alexcoursey33@gmail.com"><img src="/email.png" alt="Email" className="w-8 h-8 transition-transform hover:scale-110 hover:animate-pulse" /></a>
+        <div className={"my-24 text-center text-2xl text-lime-300 min-h-screen w-screen"}>
+            <div className='min-h-screen w-screen bg-[url("/contact-cover.svg")] bg-no-repeat bg-contain bg-center flex items-center justify-center text-lime-300 px-4'>
+                <div className="flex flex-row gap-6 w-full max-w-[1400px]">
+                    <div className="flex-1 backdrop-blur-sm p-6 rounded-xl shadow-lg text-lime-200 text-base md:text-lg leading-relaxed
+                    hover:shadow-[0_0_30px_#7f5af0] transition duration-300 ease-in-out">
+                        <h3 className="text-secondary font-bold text-xl mb-2">Discord</h3>
+                    </div>
+
+                    <div className="flex-1 backdrop-blur-sm p-6 rounded-xl shadow-lg text-lime-200 text-base md:text-lg leading-relaxed
+                    hover:shadow-[0_0_30px_#7f5af0] transition duration-300 ease-in-out">
+                        <h3 className="text-secondary font-bold text-xl mb-2">Email</h3>
+                    </div>
+
+                    <div className="flex-1 backdrop-blur-sm p-6 rounded-xl shadow-lg text-lime-200 text-base md:text-lg leading-relaxed
+                    hover:shadow-[0_0_30px_#7f5af0] transition duration-300 ease-in-out">
+                        <h3 className="text-secondary font-bold text-xl mb-2">LinkedIn</h3>
+                    </div>
+                </div>
             </div>
-        </section>
-    );
-};
+        </div>
+    )
+}
 
 export default Contact;

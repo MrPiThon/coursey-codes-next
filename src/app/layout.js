@@ -1,8 +1,4 @@
 import './globals.css';
-import Footer from '@/components/Footer';
-import ClientLayoutWrapper from '@/components/ClientLayoutWrapper';
-import GradientBackground from '@/components/GradientBackground';
-
 
 export default function RootLayout({ children }) {
     return (
@@ -16,12 +12,8 @@ export default function RootLayout({ children }) {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.ico" />
         </head>
-        <body className="bg-custom-primary text-custom-lightest font-comfortaa">
-        <GradientBackground />
-        <ClientLayoutWrapper>
-            {children}
-            <Footer />
-        </ClientLayoutWrapper>
+        <body className="bg-background bg-[url(/asfalt-light.png)] text-background font-orbitron">
+        {children}
         </body>
         </html>
     );

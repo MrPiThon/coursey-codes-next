@@ -9,15 +9,20 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        'custom-primary': "var(--color-primary)",
-        'custom-secondary': "var(--color-secondary)",
-        'custom-accent': "var(--color-accent)",
-        'custom-background': "var(--color-background)"
-      },
-      fontFamily: {
-        comfortaa: ["Comfortaa", "cursive"]
-      },
+        colors: {
+            primary: "var(--color-primary)",
+            secondary: "var(--color-secondary)",
+            accent: "var(--color-accent)",
+            background: "var(--color-background)",
+            'custom-primary': "var(--color-primary)",
+            'custom-secondary': "var(--color-secondary)",
+            'custom-accent': "var(--color-accent)",
+            'custom-background': "var(--color-background)"
+        },
+        fontFamily: {
+            orbitron: ["Orbitron", "sans-serif"],
+            dm: ["DM Sans", "sans-serif"]
+        },
     }
   },
   plugins: [
