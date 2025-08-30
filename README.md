@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Coursey.Codes — Alex Coursey’s Portfolio
 
-## Getting Started
+[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fcoursey.codes&label=coursey.codes&up_message=live&down_message=offline)](https://coursey.codes)
+![Repo Size](https://img.shields.io/github/repo-size/MrPiThon/coursey.codes)
+![Last Commit](https://img.shields.io/github/last-commit/MrPiThon/coursey.codes)
 
-First, run the development server:
+A fast, animated, and developer-focused portfolio for **Alex Coursey** (software dev & game dev).  
+It showcases selected projects, a bit of personality, and links out to the things I’m building.
+
+---
+
+## ✨ Highlights
+
+- **Modern stack**: Next.js + TailwindCSS (+ a sprinkle of Framer Motion for tasteful motion)
+- **Performance-first**: lightweight assets, responsive layout, and semantic HTML
+- **Project sections** with consistent “What / Why / How” cards
+- **External links** open in new tabs and email uses `mailto:`
+- **Dark-friendly** styling (reads great in GitHub dark mode too)
+
+---
+
+## 🔗 Live & Links
+
+- **Site**: https://coursey.codes  
+- **LinkedIn**: https://www.linkedin.com/in/alex-coursey-80388b298  
+- **Discord**: (invite rotates) — see the “Contact” section on the site  
+- **Email**: `mailto:alexcoursey33@gmail.com`
+
+> Status:  
+> [![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fcoursey.codes&label=coursey.codes&up_message=live&down_message=offline)](https://coursey.codes)
+
+---
+
+## 🧩 Featured Projects
+
+### Zombie Siege
+**What:** Round-based, PvE wave-survival for Minecraft inspired by OG CoD Zombies.  
+**Why:** Started as a way to learn Java & Paper; grew into a community project.  
+**How:** Java, PaperAPI, MongoDB, GitHub CI; prod on GalaxyMC; dev on DO + Pterodactyl.
+
+### A1 Pools
+**What:** Clean landing site for a local pool company.  
+**Why:** Give the business a legit, simple online presence.  
+**How:** Next.js, TailwindCSS, animations, deployed on Vercel.  
+**Demo:** https://a1-pools.netlify.app/
+
+### Kern County Vending
+**What:** Site for a vending concept (project archived).  
+**Why:** Branding + web presence exploration.  
+**How:** Next.js, TailwindCSS, Vercel.  
+**Demo:** https://kcvending-website.vercel.app
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **UI:** TailwindCSS (+ DaisyUI components where helpful)
+- **Motion:** Framer Motion (subtle transitions & reveals)
+- **Tooling:** ESLint, Prettier
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+# install deps
+npm i
+
+# run dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# open http://localhost:3000
