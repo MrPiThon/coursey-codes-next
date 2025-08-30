@@ -1,8 +1,8 @@
 # Coursey.Codes — Alex Coursey’s Portfolio
 
 [![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fcoursey.codes&label=coursey.codes&up_message=live&down_message=offline)](https://coursey.codes)
-![Repo Size](https://img.shields.io/github/repo-size/MrPiThon/coursey.codes)
-![Last Commit](https://img.shields.io/github/last-commit/MrPiThon/coursey.codes)
+![Repo Size](https://img.shields.io/github/repo-size/MrPiThon/coursey-codes-next)
+![Last Commit](https://img.shields.io/github/last-commit/MrPiThon/coursey-codes-next)
 
 A fast, animated, and developer-focused portfolio for **Alex Coursey** (software dev & game dev).  
 It showcases selected projects, a bit of personality, and links out to the things I’m building.
