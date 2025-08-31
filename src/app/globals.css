@@ -1,18 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=DM+Sans:wght@400;500&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --color-primary: #A888B5;
-  --color-secondary: #EFB6C8;
-  --color-accent: #FFD2A0;
-  --color-background: #8174A0;
+    --color-primary: #0fffc1;
+    --color-secondary: #7f5af0;
+    --color-accent: #ff6ac1;
+    --color-background: #0f0e17;
+    --color-foreground: #fffffe;
 }
 
 body {
-  color: var(--color-accent);
-  background: var(--color-background);
-  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--color-foreground);
+    background: var(--color-background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif;
 }

@@ -1,9 +1,9 @@
-const Footer = () => {
+const Header = () => {
     return (
-        <footer className="text-center py-6 text-sm text-custom-secondary">
-            &copy; {new Date().getFullYear()} Coursey Codes. All rights reserved.
-        </footer>
-    );
-};
+        <div className={"bg-lime-300 bg-[url(/60-lines.png)] text-center p-1"}>
+            WE'LL SEE YA NEXT TIME!
+        </div>
+    )
+}
 
-export default Footer;
+export default Header;
