@@ -7,13 +7,13 @@ import About from "@/components/About";
 
 export default function HomePage() {
     return (
-        <div>
-            <Header/>
-            <Hero/>
-            <About/>
-            <Projects/>
-            <Contact/>
-            <Footer/>
+        <div className="max-w-screen overflow-x-hidden animate-fade-in">
+            <Header />
+            <Hero />
+            <About />
+            <Projects />
+            <Contact />
+            <Footer />
         </div>
     );
 }
